@@ -3,23 +3,29 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8F7D051492A48974A7FA34E0 /* Pods_GithubSearch_Prac.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 856920AE5A71B5F2ECB50F77 /* Pods_GithubSearch_Prac.framework */; };
 		ABB8D935248CA66D00E391E0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABB8D934248CA66D00E391E0 /* AppDelegate.swift */; };
 		ABB8D937248CA66D00E391E0 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABB8D936248CA66D00E391E0 /* SceneDelegate.swift */; };
 		ABB8D939248CA66D00E391E0 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABB8D938248CA66D00E391E0 /* ViewController.swift */; };
 		ABB8D93E248CA66F00E391E0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ABB8D93D248CA66F00E391E0 /* Assets.xcassets */; };
+		ABB8D949248CA8CB00E391E0 /* GithubSearchViewReactor.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABB8D948248CA8CB00E391E0 /* GithubSearchViewReactor.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		5960A8C39E83F19C5E6FE655 /* Pods-GithubSearch-Prac.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GithubSearch-Prac.release.xcconfig"; path = "Target Support Files/Pods-GithubSearch-Prac/Pods-GithubSearch-Prac.release.xcconfig"; sourceTree = "<group>"; };
+		635CA51AC39129E8CD333AE2 /* Pods-GithubSearch-Prac.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GithubSearch-Prac.debug.xcconfig"; path = "Target Support Files/Pods-GithubSearch-Prac/Pods-GithubSearch-Prac.debug.xcconfig"; sourceTree = "<group>"; };
+		856920AE5A71B5F2ECB50F77 /* Pods_GithubSearch_Prac.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GithubSearch_Prac.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		ABB8D931248CA66D00E391E0 /* GithubSearch-Prac.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "GithubSearch-Prac.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		ABB8D934248CA66D00E391E0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		ABB8D936248CA66D00E391E0 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		ABB8D938248CA66D00E391E0 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		ABB8D93D248CA66F00E391E0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		ABB8D942248CA66F00E391E0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ABB8D948248CA8CB00E391E0 /* GithubSearchViewReactor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GithubSearchViewReactor.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -27,17 +33,28 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8F7D051492A48974A7FA34E0 /* Pods_GithubSearch_Prac.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		073B9F47C21D2B30FAD7669E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				856920AE5A71B5F2ECB50F77 /* Pods_GithubSearch_Prac.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		ABB8D928248CA66D00E391E0 = {
 			isa = PBXGroup;
 			children = (
 				ABB8D933248CA66D00E391E0 /* GithubSearch-Prac */,
 				ABB8D932248CA66D00E391E0 /* Products */,
+				EFBA25594F8EDDEF70E0B211 /* Pods */,
+				073B9F47C21D2B30FAD7669E /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -57,8 +74,18 @@
 				ABB8D938248CA66D00E391E0 /* ViewController.swift */,
 				ABB8D93D248CA66F00E391E0 /* Assets.xcassets */,
 				ABB8D942248CA66F00E391E0 /* Info.plist */,
+				ABB8D948248CA8CB00E391E0 /* GithubSearchViewReactor.swift */,
 			);
 			path = "GithubSearch-Prac";
+			sourceTree = "<group>";
+		};
+		EFBA25594F8EDDEF70E0B211 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				635CA51AC39129E8CD333AE2 /* Pods-GithubSearch-Prac.debug.xcconfig */,
+				5960A8C39E83F19C5E6FE655 /* Pods-GithubSearch-Prac.release.xcconfig */,
+			);
+			path = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -68,9 +95,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = ABB8D945248CA66F00E391E0 /* Build configuration list for PBXNativeTarget "GithubSearch-Prac" */;
 			buildPhases = (
+				A9BE3BA24A7DAACFA6E55FDE /* [CP] Check Pods Manifest.lock */,
 				ABB8D92D248CA66D00E391E0 /* Sources */,
 				ABB8D92E248CA66D00E391E0 /* Frameworks */,
 				ABB8D92F248CA66D00E391E0 /* Resources */,
+				9F8A81BA7B4E72114E3CA171 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -125,11 +154,54 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		9F8A81BA7B4E72114E3CA171 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-GithubSearch-Prac/Pods-GithubSearch-Prac-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-GithubSearch-Prac/Pods-GithubSearch-Prac-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-GithubSearch-Prac/Pods-GithubSearch-Prac-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A9BE3BA24A7DAACFA6E55FDE /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-GithubSearch-Prac-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		ABB8D92D248CA66D00E391E0 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				ABB8D949248CA8CB00E391E0 /* GithubSearchViewReactor.swift in Sources */,
 				ABB8D939248CA66D00E391E0 /* ViewController.swift in Sources */,
 				ABB8D935248CA66D00E391E0 /* AppDelegate.swift in Sources */,
 				ABB8D937248CA66D00E391E0 /* SceneDelegate.swift in Sources */,
@@ -255,6 +327,7 @@
 		};
 		ABB8D946248CA66F00E391E0 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 635CA51AC39129E8CD333AE2 /* Pods-GithubSearch-Prac.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -273,6 +346,7 @@
 		};
 		ABB8D947248CA66F00E391E0 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5960A8C39E83F19C5E6FE655 /* Pods-GithubSearch-Prac.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
