@@ -13,6 +13,8 @@
 		ABB8D939248CA66D00E391E0 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABB8D938248CA66D00E391E0 /* ViewController.swift */; };
 		ABB8D93E248CA66F00E391E0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ABB8D93D248CA66F00E391E0 /* Assets.xcassets */; };
 		ABB8D949248CA8CB00E391E0 /* GithubSearchViewReactor.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABB8D948248CA8CB00E391E0 /* GithubSearchViewReactor.swift */; };
+		ABB8D94B248CB37B00E391E0 /* GithubSearchView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABB8D94A248CB37B00E391E0 /* GithubSearchView.swift */; };
+		ABB8D94D248CBCA800E391E0 /* GithubSearchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABB8D94C248CBCA800E391E0 /* GithubSearchViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +28,8 @@
 		ABB8D93D248CA66F00E391E0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		ABB8D942248CA66F00E391E0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		ABB8D948248CA8CB00E391E0 /* GithubSearchViewReactor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GithubSearchViewReactor.swift; sourceTree = "<group>"; };
+		ABB8D94A248CB37B00E391E0 /* GithubSearchView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GithubSearchView.swift; sourceTree = "<group>"; };
+		ABB8D94C248CBCA800E391E0 /* GithubSearchViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GithubSearchViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -75,6 +79,8 @@
 				ABB8D93D248CA66F00E391E0 /* Assets.xcassets */,
 				ABB8D942248CA66F00E391E0 /* Info.plist */,
 				ABB8D948248CA8CB00E391E0 /* GithubSearchViewReactor.swift */,
+				ABB8D94A248CB37B00E391E0 /* GithubSearchView.swift */,
+				ABB8D94C248CBCA800E391E0 /* GithubSearchViewController.swift */,
 			);
 			path = "GithubSearch-Prac";
 			sourceTree = "<group>";
@@ -204,6 +210,8 @@
 				ABB8D949248CA8CB00E391E0 /* GithubSearchViewReactor.swift in Sources */,
 				ABB8D939248CA66D00E391E0 /* ViewController.swift in Sources */,
 				ABB8D935248CA66D00E391E0 /* AppDelegate.swift in Sources */,
+				ABB8D94B248CB37B00E391E0 /* GithubSearchView.swift in Sources */,
+				ABB8D94D248CBCA800E391E0 /* GithubSearchViewController.swift in Sources */,
 				ABB8D937248CA66D00E391E0 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
